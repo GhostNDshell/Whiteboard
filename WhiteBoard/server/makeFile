@@ -1,0 +1,2 @@
+server: server.c utility.c topic_operations.c serverUtils.h hread_operations.c message_operations.c authentication_operations.c subscribing_operations.c registration_operations.c
+	gcc -o server server.c utility.c topic_operations.c serverUtils.h thread_operations.c message_operations.c authentication_operations.c subscribing_operations.c registration_operations.c
